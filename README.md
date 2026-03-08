@@ -1,5 +1,7 @@
 # claude-productivity-mcp
 
+🇹🇭 ภาษาไทย | [🇬🇧 English](README.en.md)
+
 **MCP Server สำหรับ Claude Desktop** ที่รวม productivity tools ยอดนิยมไว้ในที่เดียว — Gmail, Google Calendar, Google Drive, Google Sheets, Notion และ Microsoft Outlook ควบคุมได้ง่ายผ่าน `.env` ไม่ต้องแก้โค้ด
 
 > ใช้กับ [Claude Desktop](https://claude.ai/download) ผ่านโปรโตคอล [Model Context Protocol (MCP)](https://modelcontextprotocol.io)
