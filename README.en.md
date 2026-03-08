@@ -157,7 +157,7 @@ Create `credentials/notion.json`:
 ```json
 {
   "apiKey": "ntn_YOUR_NOTION_API_KEY",
-  "timesheetDatabaseId": "YOUR_DATABASE_ID"
+  "databaseId": "YOUR_DATABASE_ID"
 }
 ```
 

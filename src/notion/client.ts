@@ -18,7 +18,7 @@ function loadConfig() {
   );
   return JSON.parse(raw) as {
     apiKey: string;
-    timesheetDatabaseId: string;
+    databaseId: string;
     timesheetDataSourceId: string;
   };
 }
@@ -29,7 +29,7 @@ function getClient() {
 }
 
 function getDatabaseId() {
-  return loadConfig().timesheetDatabaseId;
+  return loadConfig().databaseId;
 }
 
 function getDataSourceId() {
