@@ -1,0 +1,11 @@
+node_modules/
+dist/
+export/
+*.log
+
+# Environment (copy .env.example แล้วแก้ค่า)
+.env
+
+# Credentials — ห้าม commit เด็ดขาด
+credentials/*.json
+!credentials/*.example.json
