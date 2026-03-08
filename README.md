@@ -73,7 +73,7 @@ Claude จะดำเนินการให้เองทันที ไม
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/YOUR_USERNAME/claude-productivity-mcp.git
+git clone https://github.com/kmusicman/claude-productivity-mcp.git
 cd claude-productivity-mcp
 
 # 2. ติดตั้ง dependencies
