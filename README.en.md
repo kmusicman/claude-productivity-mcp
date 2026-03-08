@@ -101,7 +101,9 @@ cp .env.example .env
    - **Google Drive API**
    - **Google Sheets API**
 
-<!-- Image: Enabling APIs in Google Cloud Console -->
+![APIs & Services](doc/images/gcp-1.png)
+
+![API Library](doc/images/gcp-2.png)
 
 #### 1.2 Create OAuth 2.0 Credentials
 
@@ -113,7 +115,7 @@ cp .env.example .env
 6. Rename the downloaded file to `oauth2.keys.json`
 7. Place it at `credentials/oauth2.keys.json`
 
-<!-- Image: Creating OAuth credentials -->
+![OAuth Credentials](doc/images/gcp-3.png)
 
 > If you haven't configured the OAuth consent screen yet, go to **APIs & Services → OAuth consent screen**, set it to External, and add your email as a Test user.
 
@@ -125,7 +127,6 @@ npx tsx src/setup-google-auth.ts
 
 A browser window will open → sign in with Google → grant permissions → the token will be saved automatically to `credentials/google-token.json`
 
-<!-- Image: OAuth consent screen in browser -->
 
 ---
 
@@ -139,7 +140,9 @@ A browser window will open → sign in with Google → grant permissions → the
 4. Click **Submit**
 5. Copy the **Internal Integration Token**
 
-<!-- Image: Creating a Notion Integration -->
+![Create Notion Integration](doc/images/Notion-1.png)
+
+![Notion Integration Secret](doc/images/Notion-2.png)
 
 #### 2.2 Connect to a Database
 
@@ -171,7 +174,7 @@ Create `credentials/notion.json`:
 5. Redirect URI: `http://localhost:5555/oauth/callback` (Platform: Web)
 6. Click **Register**
 
-<!-- Image: Creating an Azure App Registration -->
+![Azure App Registration](doc/images/Azure-1.png)
 
 #### 3.2 Add API Permissions
 
@@ -239,7 +242,7 @@ npm run build
 
 3. **Restart Claude Desktop**
 
-<!-- Image: Claude Desktop showing available tools -->
+![Claude Desktop MCP Settings](doc/images/calude-desktop-1.png)
 
 ---
 

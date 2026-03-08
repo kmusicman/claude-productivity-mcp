@@ -101,7 +101,9 @@ cp .env.example .env
    - **Google Drive API**
    - **Google Sheets API**
 
-<!-- รูป: การเปิด API ใน Google Cloud Console -->
+![APIs & Services](doc/images/gcp-1.png)
+
+![API Library](doc/images/gcp-2.png)
 
 #### 1.2 สร้าง OAuth 2.0 Credentials
 
@@ -113,7 +115,7 @@ cp .env.example .env
 6. Rename ไฟล์ที่ดาวน์โหลดมาเป็น `oauth2.keys.json`
 7. วางไฟล์ที่ `credentials/oauth2.keys.json`
 
-<!-- รูป: การสร้าง OAuth credentials -->
+![OAuth Credentials](doc/images/gcp-3.png)
 
 > หากยังไม่ได้ตั้งค่า OAuth consent screen ให้ไปที่ **APIs & Services → OAuth consent screen** ตั้งค่าเป็น External และเพิ่ม email ตัวเองเป็น Test user
 
@@ -125,7 +127,6 @@ npx tsx src/setup-google-auth.ts
 
 Browser จะเปิดขึ้นมาให้ login Google → อนุญาต permissions → token จะถูกบันทึกอัตโนมัติที่ `credentials/google-token.json`
 
-<!-- รูป: หน้า OAuth consent ใน browser -->
 
 ---
 
@@ -140,7 +141,9 @@ Browser จะเปิดขึ้นมาให้ login Google → อนุ
 5. คลิก **Submit**
 6. Copy **Internal Integration Token**
 
-<!-- รูป: การสร้าง Notion Integration -->
+![Create Notion Integration](doc/images/Notion-1.png)
+
+![Notion Integration Secret](doc/images/Notion-2.png)
 
 #### 2.2 เชื่อมต่อ Database
 
@@ -172,7 +175,7 @@ Browser จะเปิดขึ้นมาให้ login Google → อนุ
 5. Redirect URI: `http://localhost:5555/oauth/callback` (Platform: Web)
 6. คลิก **Register**
 
-<!-- รูป: การสร้าง Azure App Registration -->
+![Azure App Registration](doc/images/Azure-1.png)
 
 #### 3.2 เพิ่ม API Permissions
 
@@ -240,7 +243,7 @@ npm run build
 
 3. **Restart Claude Desktop**
 
-<!-- รูป: Claude Desktop แสดง tools ที่พร้อมใช้งาน -->
+![Claude Desktop MCP Settings](doc/images/calude-desktop-1.png)
 
 ---
 
